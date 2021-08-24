@@ -12,5 +12,9 @@ describe 'Hero' do
         hero = Hero.new 
         expect(hero.hp).to be < 100
     end
+
+    it 'has helmet ' do
+        
+    end
    
 end
