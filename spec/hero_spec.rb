@@ -10,7 +10,7 @@ describe 'Hero' do
 
     it 'has more than 1000 hp' do
         hero = Hero.new 
-        expect(hero.hp).to be < 100
+        expect(hero.hp).to be > 100
     end
 
     it 'has helmet ' do
